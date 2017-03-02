@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="training-ejb"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/salah/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="C:/Users/salah/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="/training-web/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="training-web"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/salah/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="C:/Users/salah/.m2/repository/org/primefaces/primefaces/5.3/primefaces-5.3.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/faces-config.xml" project="test-web"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/primefaces-p.taglib.xml" project="test-web"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/primefaces-pm.taglib.xml" project="test-web"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>

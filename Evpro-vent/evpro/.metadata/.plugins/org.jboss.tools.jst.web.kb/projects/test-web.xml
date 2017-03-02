@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="test-ejb"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/salah/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="C:/Users/salah/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="C:/Users/salah/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/test-web/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="test-web"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/salah/.m2/repository/org/primefaces/primefaces/5.3/primefaces-5.3.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/faces-config.xml" project="test-web"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/primefaces-p.taglib.xml" project="test-web"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-5.3.jar/meta-inf/primefaces-pm.taglib.xml" project="test-web"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="15" name="%0" offset="758" path="%1"/>
+   <linked-el length="24" name="%2" offset="510" path="%1"/>
+   <linked-el length="20" name="%3" offset="690" path="%1"/>
+   <linked-el length="15" name="%4" offset="758" path="%1"/>
+   <linked-el length="21" name="%5" offset="986" path="%6"/>
+   <linked-el length="21" name="%7" offset="986" path="%6"/>
+   <linked-el length="24" name="%8" offset="510" path="%1"/>
+   <linked-el length="20" name="%8" offset="690" path="%1"/>
+   <linked-el length="29" name="%8" offset="564" path="%1"/>
+   <linked-el length="24" name="%9" offset="510" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="todo" value="%0"/>
+  <alias path="todoBean.todo" value="%2"/>
+  <alias path="todoBean.todos" value="%3"/>
+  <alias
+   path="/test-web/target/m2e-wtp/web-resources/META-INF/maven/tn.esprit/test-web/pom.xml" value="%6"/>
+  <alias path="/test-web/src/main/webapp/todos.xhtml" value="%1"/>
+  <alias path="todo.text" value="%4"/>
+  <alias path="project.artifactId" value="%5"/>
+  <alias path="project" value="%7"/>
+  <alias path="todoBean" value="%8"/>
+  <alias path="todoBean.todo.text" value="%9"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://xmlns.jcp.org/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://xmlns.jcp.org/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

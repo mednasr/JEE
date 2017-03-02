@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects>
+  <project name="test-web"/>
+ </used-by-projects>
+ <paths>
+  <path value="C:/Users/salah/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="C:/Users/salah/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="C:/Users/salah/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="21" name="%0" offset="811" path="%1"/>
+   <linked-el length="21" name="%2" offset="641" path="%1"/>
+   <linked-el length="21" name="%3" offset="641" path="%1"/>
+   <linked-el length="21" name="%4" offset="811" path="%1"/>
+   <linked-el length="21" name="%5" offset="811" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/test-ejb/pom.xml" value="%1"/>
+  <alias path="version.ejb" value="%0"/>
+  <alias path="project.artifactId" value="%2"/>
+  <alias path="project" value="%3"/>
+  <alias path="version" value="%4"/>
+  <alias path="version.ejb.plugin" value="%5"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

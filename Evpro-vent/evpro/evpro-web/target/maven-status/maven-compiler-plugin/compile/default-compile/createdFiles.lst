@@ -1,0 +1,14 @@
+evpro\edu\esprit\ressources\TaskRessource.class
+evpro\edu\esprit\ressources\UserRessource.class
+evpro\edu\esprit\ressources\EventRessource.class
+evpro\edu\esprit\ressources\JaxRsActivator.class
+evpro\edu\esprit\ressources\TicketRessource.class
+evpro\edu\esprit\ressources\EventOwnerRessource.class
+evpro\edu\esprit\ressources\MessageRessource.class
+evpro\edu\esprit\ressources\RewardRessource.class
+evpro\edu\esprit\ressources\CORS.class
+evpro\edu\esprit\ressources\CommentRessource.class
+evpro\edu\esprit\ressources\PaymentRessource.class
+evpro\edu\esprit\ressources\SatisfactionSurveyRessource.class
+evpro\edu\esprit\ressources\ParticipantRessource.class
+evpro\edu\esprit\ressources\OrgnizerRessource.class

@@ -1,0 +1,12 @@
+path=C:\Users\salah\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+size=62983
+archive=0
+path=C:\Users\salah\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar
+size=1930692
+archive=1
+path=C:\Users\salah\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar
+size=521991
+archive=0
+path=C:\Users\salah\.m2\repository\org\primefaces\primefaces\5.3\primefaces-5.3.jar
+size=3422913
+archive=0

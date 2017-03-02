@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="evpro-ejb">
+		<jta-data-source>java:/Event</jta-data-source>
+		<class>evpro.edu.esprit.persistance.Comment</class>
+		<class>evpro.edu.esprit.persistance.CommentPK</class>
+		<class>evpro.edu.esprit.persistance.Event</class>
+		<class>evpro.edu.esprit.persistance.EventOwner</class>
+		<class>evpro.edu.esprit.persistance.Feature</class>
+		<class>evpro.edu.esprit.persistance.Message</class>
+		<class>evpro.edu.esprit.persistance.Orgnizer</class>
+		<class>evpro.edu.esprit.persistance.Participant</class>
+		<class>evpro.edu.esprit.persistance.Payment</class>
+		<class>evpro.edu.esprit.persistance.PaymentPK</class>
+		<class>evpro.edu.esprit.persistance.Reward</class>
+		<class>evpro.edu.esprit.persistance.SatisfactionSurvey</class>
+		<class>evpro.edu.esprit.persistance.Task</class>
+		<class>evpro.edu.esprit.persistance.TaskPK</class>
+		<class>evpro.edu.esprit.persistance.User</class>
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
+</persistence>
