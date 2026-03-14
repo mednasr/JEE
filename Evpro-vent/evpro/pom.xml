@@ -18,7 +18,7 @@
 		<version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
 		<version.wildfly>9.0.1.Final</version.wildfly>
 		<version.hibernate>4.3.10.Final</version.hibernate>
-		<primefaces.version>5.3</primefaces.version>
+		<primefaces.version>8.0</primefaces.version>
 
 		<version.compiler.plugin>3.1</version.compiler.plugin>
 		<version.ear.plugin>2.10</version.ear.plugin>
@@ -67,7 +67,7 @@
 			<dependency>
 				<groupId>com.itextpdf</groupId>
 				<artifactId>itextpdf</artifactId>
-				<version>5.5.9</version>
+				<version>5.5.13.3</version>
 			</dependency>
 
 			<dependency>
@@ -90,7 +90,7 @@
 			<dependency>
 				<groupId>org.apache.logging.log4j</groupId>
 				<artifactId>log4j-core</artifactId>
-				<version>2.4</version>
+				<version>2.25.3</version>
 			</dependency>
 
 
